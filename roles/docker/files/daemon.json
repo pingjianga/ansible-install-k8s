@@ -1,0 +1,9 @@
+{
+  "registry-mirrors": ["https://oe063xss.mirror.aliyuncs.com"],
+  "exec-opts": ["native.cgroupdriver=cgroupfs"],
+  "log-driver": "json-file",
+  "log-opts": {
+  "max-size": "100m"
+  },
+  "storage-driver": "overlay2"
+}
